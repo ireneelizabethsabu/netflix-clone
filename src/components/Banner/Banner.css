@@ -22,10 +22,10 @@
     height: 80px;
     line-height: 1.3;
 }
-/* .banner__fadeBottom{
+.banner__fadeBottom{
     height: 7rem;
-    background-image: linear-gradient(100deg,transparent,rgba(37,37,37,0.61),#111);
-} */
+    background-image: linear-gradient(180deg,transparent,rgba(37,37,37,0.61),#111);
+}
 .banner__button{
     cursor: pointer;
     color: white;
