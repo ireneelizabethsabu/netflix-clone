@@ -9,7 +9,7 @@ function LoginScreen() {
         <div className='login__background'>
             <img  className='login__logo'
             src='netflix-logo.png' alt='login screen background' />
-            <button className='login__button' onClick={() => setSignin(true)}>
+            <button className='btn login__button' onClick={() => setSignin(true)}>
                 Sign In
             </button>
             <div className='login__gradient'/>
@@ -22,7 +22,7 @@ function LoginScreen() {
                 <div className='login__input'>
                     <form>
                         <input type="email" placeholder="Email Address" />
-                        <button className='login_startbtn' onClick={() => setSignin(true)}>Get Started</button>
+                        <button className='btn login_startbtn' onClick={() => setSignin(true)}>Get Started</button>
                     </form>
                 </div>
             </div>

@@ -29,13 +29,6 @@
     right: 20px;
     padding: 10px 20px;
     width: 100px;
-    background-color: #e50914;
-    color: white;
-    font-size: 1rem;
-    font-weight: 600;
-    outline: none;
-    border: none;
-    cursor: pointer;
 }
 .login__contents{
     z-index: 1;
@@ -43,8 +36,8 @@
     padding: 20px;
     position: absolute;
     top: 30%; 
-    /* left: 50%;
-    transform: translateX(-50%); */
+    left: 50%;
+    transform: translateX(-50%);
     text-align: center;
     margin: 0 auto;
     line-height: 48px;
@@ -73,18 +66,6 @@
 .login__input > form > input{
     padding: 10px 20px;
     outline-width: 0;
-    height: 30px;
     width: 30%;
     max-width: 600px;
-    border: none;
-    outline: none;
-}
-.login_startbtn{
-    background-color: #e50914;
-    color: white;
-    border: none;
-    outline: none;
-    padding: 16px 20px;
-    cursor: pointer;
-    font-size: 1rem;
 }
