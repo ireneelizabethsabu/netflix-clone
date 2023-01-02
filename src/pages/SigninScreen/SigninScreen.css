@@ -24,12 +24,12 @@
 .signin__btn{
     margin: 20px 0px 40px 0px;
 }
-a,a:visited{
+.sigin__link,.sigin__link:visited{
     color: white;
     text-decoration: none;
     cursor: pointer;
 }
-a:hover{
+.sigin__link:hover{
     color: white;
     text-decoration: underline;
     cursor: pointer;
