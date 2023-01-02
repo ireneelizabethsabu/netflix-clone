@@ -2,6 +2,7 @@ import React,{useEffect} from 'react';
 import './App.css';
 import HomeScreen from './pages/HomeScreen/HomeScreen';
 import LoginScreen from './pages/LoginScreen/LoginScreen';
+import ProfileScreen from './pages/ProfileScreen/ProfileScreen';
 import {
   BrowserRouter as Router,
   Routes,
@@ -25,14 +26,14 @@ function App() {
           email: user.email
         }));
       } else {
-        dispatch(logout);
+        dispatch(logout());
       }
     });
   
     return () => {
       unsubscribe();
     }
-  }, [])
+  }, [dispatch])
   
   return (
     <div className="app">
@@ -41,6 +42,7 @@ function App() {
           <Routes>
           {/* <Route path="/test" element={<HomeScreen />} /> */}
           <Route path="/" element={<HomeScreen />} />
+          <Route path="/profile" element={<ProfileScreen />} />
         </Routes>
         )}
       </Router>
