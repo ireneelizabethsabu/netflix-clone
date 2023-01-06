@@ -1,0 +1,17 @@
+.plan__card {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    opacity: 0.8;
+}
+.plan__card__disabled > button{
+    background-color: gray !important;
+}
+.btn{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 10px 20px;
+}
+.renewal__date{
+    margin-bottom: 10px;
+}

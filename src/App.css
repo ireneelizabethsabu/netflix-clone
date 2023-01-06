@@ -18,3 +18,6 @@ form > input{
     font-size: 1rem;
     color: white;
 }
+.plan__card:hover{
+    opacity: 1;
+}
